@@ -18,6 +18,9 @@ set termguicolors
 syntax on
 colorscheme jellybeans
 
+let g:ycm_autoclose_preview_window_after_insertion=1
 let g:airline_powerline_fonts = 1
 
 set number
+" set relativenumber
+set timeoutlen=1000 ttimeoutlen=0
